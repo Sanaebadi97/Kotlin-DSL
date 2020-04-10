@@ -7,7 +7,7 @@ Gradle 5.0 has been released with lots of features and especially with the suppo
 
 **STEP 1 :**
 
-Update to Gradle Wrapper 5.0 or higher
+Update to ``Gradle Wrapper 5.0`` or higher
 
 
 **STEP 2 :**

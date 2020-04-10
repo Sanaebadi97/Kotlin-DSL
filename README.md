@@ -33,7 +33,7 @@ change all space to ``() or = ()`` -> ``function () / property =``
 
 **STEP 5 :**
 
-Conversion ->  rename build.gradle files from ``xx.gradle`` to ``xx.gradle.kts``  -> ``settings.gradle`` files to ``settings.gradle.kts ``
+Conversion ->  rename ``build.gradle`` files from ``xx.gradle`` to ``xx.gradle.kts``  -> ``settings.gradle`` files to ``settings.gradle.kts ``
 
 ./gradlew tasks
 

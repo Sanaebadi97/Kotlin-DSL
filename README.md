@@ -40,7 +40,11 @@ Conversion ->  rename ``build.gradle`` files from ``xx.gradle`` to ``xx.gradle.k
 
 **STEP 6 :**
 
-change ``release`` to ``getByName(String)`` / minifyEnabled to isMinifyEnabled / fileTree to fileTree(Map<String, ?> args)
+change ``release`` to ``getByName(String)`` / 
+
+``minifyEnabled`` to ``isMinifyEnabled`` / 
+
+fileTree to fileTree(Map<String, ?> args)
 
 run ./gradlew tasks
 

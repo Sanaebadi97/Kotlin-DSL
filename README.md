@@ -30,7 +30,7 @@ apply plugin: "com.android.application" to plugins {
 
 **STEP 5 :**
 
-Conversion ->  rename build.gradle files from ``xx.gradle`` to xx.gradle.kts  -> settings.gradle files to settings.gradle.kts 
+Conversion ->  rename build.gradle files from ``xx.gradle`` to ``xx.gradle.kts``  -> settings.gradle files to settings.gradle.kts 
 
 ./gradlew tasks
 

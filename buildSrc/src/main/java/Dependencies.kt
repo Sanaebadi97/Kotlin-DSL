@@ -1,27 +1,50 @@
-object Versions {
-    val kotlin = "1.3.71"
-    val espresso = "3.2.0"
-    val junit = "4.12"
-    val constraintlayout = "1.1.3"
-    val appcompat = "1.1.0"
-    val core_ktx = "1.2.0"
+const val kotlinVersion = "1.3.71"
 
-    val compileSdkVersion = "29"
-    val minSdkVersion = "21"
-    val targetSdkVersion = "29"
-    val versionCode = "1"
-    val versionName = "1.0"
-    val build_gradle="3.6.2"
+object BuildPlugins {
+
+    object Versions {
+        const val buildToolsVersion = "3.6.2"
+    }
+
+    const val androidGradlePlugin = "com.android.tools.build:gradle:${Versions.buildToolsVersion}"
+    const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    const val androidApplication = "com.android.application"
+    const val kotlinAndroid = "kotlin-android"
+    const val kotlinAndroidExtensions = "kotlin-android-extensions"
+
 }
 
-object Deps {
-    val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
 
-    val espresso_core = "androidx.test.espresso:espresso-core:${Versions.espresso}"
-    val junit = "junit:junit:4.12:${Versions.junit}"
-    val constraint_layout =
-        "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
-    val core_ktx = "androidx.core:core-ktx:${Versions.core_ktx}"
-    val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
-    val build_gradle = "com.android.tools.build:gradle:${Versions.build_gradle}"
+object AndroidSdk {
+    const val min = 15
+    const val compile = 29
+    const val target = compile
 }
+
+object Libraries {
+    private object Versions {
+        const val jetpack = "1.0.0-beta01"
+        const val constraintLayout = "1.1.2"
+        const val ktx = "1.1.0-alpha05"
+    }
+
+    const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
+    const val appCompat = "androidx.appcompat:appcompat:${Versions.jetpack}"
+    const val constraintLayout =
+        "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+    const val ktxCore = "androidx.core:core-ktx:${Versions.ktx}"
+}
+
+object TestLibraries {
+    private object Versions {
+        const val junit4 = "4.12"
+        const val testRunner = "1.1.0-alpha4"
+        const val espresso = "3.1.0-alpha4"
+    }
+
+    const val junit4 = "junit:junit:${Versions.junit4}"
+    const val testRunner = "androidx.test:runner:${Versions.testRunner}"
+    const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
+}
+
+

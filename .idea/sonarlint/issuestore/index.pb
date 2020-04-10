@@ -48,3 +48,13 @@ D
 build.gradle.kts,d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d
 C
 settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
+V
+&buildSrc/src/main/java/Dependencies.kt,e/8/e814710098f674890a8b6d2265ec0d2432e04a92
+I
+buildSrc/build.gradle.kts,d/9/d90b697280fada81e52ec92d24725920f1cb087b
+E
+buildSrc/buildSrc.iml,4/0/408994b63b3dd832e5f2c216cda715af827a395f
+]
+-buildSrc/build/kotlin/buildSrcjar-classes.txt,c/2/c22946dad91f1968db7335e009cbc984b4efcc59
+|
+LbuildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties,c/0/c0d711cbf49949b172fea99e10d75c1494b098a9

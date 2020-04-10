@@ -10,12 +10,13 @@ Gradle 5.0 has been released with lots of features and especially with the suppo
 Update to Gradle Wrapper 5.0 or higher
 
 
-**STEP2:**
+**STEP 2 :**
 
 Fix ALL ``String quotes -> single quotes to double quotes `` ***CTRL+ SHIFT + R***
 
 ⚠️ Dont forget the ``settings.gradle`` file
 
+**STEP 3 :**
 
 3.change all space to () or = () -> function () / property =
 

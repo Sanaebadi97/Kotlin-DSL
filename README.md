@@ -4,11 +4,8 @@
 
 Gradle 5.0 has been released with lots of features and especially with the support of production-ready Kotlin DSL 
 
-n this Video I’ll be sharing with you the process I’ve followed to migrate Gradle
 
-build scripts from Groovy to Kotlin DSL in one of my Android side projects
-
-1.Update to Gradle Wrapper 5.0 or higher
+Step1 = Update to Gradle Wrapper 5.0 or higher
 
 
 

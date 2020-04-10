@@ -44,7 +44,7 @@ change ``release`` to ``getByName(String)``
 
 ``minifyEnabled`` to ``isMinifyEnabled`` 
 
-fileTree to fileTree(Map<String, ?> args)
+``fileTree`` to ``fileTree(Map<String, ?> args)``
 
 
 

@@ -5,23 +5,23 @@
 Gradle 5.0 has been released with lots of features and especially with the support of production-ready Kotlin DSL 
 
 
-**STEP 1 :**
+- **STEP 1 :**
 
 Update to ``Gradle Wrapper 5.0`` or higher
 
 
-**STEP 2 :**
+- **STEP 2 :**
 
 Fix ALL ``String quotes -> single quotes to double quotes `` ***CTRL+ SHIFT + R***
 
 ⚠️ Dont forget the ``settings.gradle`` file
 
-**STEP 3 :**
+- **STEP 3 :**
 
 change all space to ``() or = ()`` -> ``function () / property =``
 
 
-**STEP 4 :**
+- **STEP 4 :**
 
 **Respect patterns**
 
@@ -31,14 +31,14 @@ change all space to ``() or = ()`` -> ``function () / property =``
     
 
 
-**STEP 5 :**
+- **STEP 5 :**
 
 Conversion ->  rename ``build.gradle`` files from ``xx.gradle`` to ``xx.gradle.kts``  -> ``settings.gradle`` files to ``settings.gradle.kts ``
 
 
 
 
-**STEP 6 :**
+- **STEP 6 :**
 
 change ``release`` to ``getByName(String)`` 
 
@@ -48,8 +48,7 @@ change ``release`` to ``getByName(String)``
 
 
 
-
-**STEP 7 :**
+- **STEP 7 :**
 
 create ``buildSrc`` dir -> ``build.gradle.kts ``
 

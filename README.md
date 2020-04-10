@@ -23,7 +23,7 @@ change all space to ``() or = ()`` -> ``function () / property =``
 
 **STEP 4 :**
 
-**Respect patterns **
+**Respect patterns**
 
 ``apply plugin: "com.android.application" to plugins {
     id("com.android.application")

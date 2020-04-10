@@ -10,7 +10,7 @@ Gradle 5.0 has been released with lots of features and especially with the suppo
 Update to Gradle Wrapper 5.0 or higher
 
 
-STEP2:
+**STEP2:**
 
 2.Fix ALL String quotes -> single quotes to double quotes ctrl+shift+R
 

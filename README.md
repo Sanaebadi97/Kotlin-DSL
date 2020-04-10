@@ -34,6 +34,9 @@ apply plugin: "com.android.application" to plugins {
 
 ./gradlew tasks
 
+
+**STEP 6 :**
+
 6.change release to getByName(String) / minifyEnabled to isMinifyEnabled / fileTree to fileTree(Map<String, ?> args)
 
 run ./gradlew tasks

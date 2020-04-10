@@ -21,7 +21,7 @@ Fix ALL ``String quotes -> single quotes to double quotes `` ***CTRL+ SHIFT + R*
 change all space to ``() or = ()`` -> ``function () / property =``
 
 
-STEP 4 : 
+**STEP 4 :**
 
 4.Respect patterns -> 
 apply plugin: "com.android.application" to plugins {

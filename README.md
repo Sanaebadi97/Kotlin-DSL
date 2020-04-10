@@ -49,7 +49,7 @@ lets start the last step !
 
 **STEP 7 :**
 
-create buildSrc dir -> build.gradle.kts 
+create ``buildSrc`` dir -> ``build.gradle.kts ``
 
 
 ***migrate from groovy to Kotlin DSL DONE !***

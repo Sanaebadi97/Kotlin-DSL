@@ -18,7 +18,7 @@ Fix ALL ``String quotes -> single quotes to double quotes `` ***CTRL+ SHIFT + R*
 
 **STEP 3 :**
 
-3.change all space to () or = () -> function () / property =
+change all space to ``() or = ()`` -> ``function () / property =``
 
 
 4.Respect patterns -> 

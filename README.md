@@ -14,7 +14,7 @@ Update to Gradle Wrapper 5.0 or higher
 
 Fix ALL ``String quotes -> single quotes to double quotes `` ***CTRL+ SHIFT + R***
 
-⚠️ Dont forget the settings.gradle file
+⚠️ Dont forget the ``settings.gradle`` file
 
 
 3.change all space to () or = () -> function () / property =

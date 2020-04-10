@@ -47,11 +47,11 @@ change ``release`` to ``getByName(String)``
 
 
 
-- **STEP 7 :**
+- **STEP 7 :**  :point_left:
 
 create ``buildSrc`` dir -> ``build.gradle.kts ``
 
 
-***migrate from groovy to Kotlin DSL DONE !*** :grin:
+***migrate from groovy to Kotlin DSL DONE !*** :grin: 
 
 

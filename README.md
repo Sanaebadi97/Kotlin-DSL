@@ -5,11 +5,12 @@
 Gradle 5.0 has been released with lots of features and especially with the support of production-ready Kotlin DSL 
 
 
-**Step1 :**
+**STEP 1 :**
 
 Update to Gradle Wrapper 5.0 or higher
 
 
+STEP2:
 
 2.Fix ALL String quotes -> single quotes to double quotes ctrl+shift+R
 

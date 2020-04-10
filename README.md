@@ -47,6 +47,7 @@ checked !
 lets start the last step !
 
 
+**STEP 7 :**
 7.create buildSrc dir -> build.gradle.kts 
 
 

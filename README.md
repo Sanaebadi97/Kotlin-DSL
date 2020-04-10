@@ -12,7 +12,7 @@ Update to Gradle Wrapper 5.0 or higher
 
 **STEP2:**
 
-2.Fix ALL String quotes -> single quotes to double quotes ctrl+shift+R
+Fix ALL ``String quotes -> single quotes to double quotes `` ***ctrl+shift+R**
 
 ⚠️ Dont forget the settings.gradle file
 

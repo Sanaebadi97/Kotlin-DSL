@@ -1,5 +1,11 @@
 const val kotlinVersion = "1.3.71"
 
+object Config{
+    const val applicationId = "info.sanaebadi.kotlindsl"
+    const val versionCode = 1
+    const val versionName = "1.0"
+}
+
 object BuildPlugins {
 
     object Versions {
@@ -19,6 +25,7 @@ object AndroidSdk {
     const val min = 15
     const val compile = 29
     const val target = compile
+    const val buildToolsVersion = "29.0.3"
 }
 
 object Libraries {
@@ -36,6 +43,9 @@ object Libraries {
 }
 
 object TestLibraries {
+    
+    const val AndroidJunitRunner = "androidx.test.runner.AndroidJUnitRunner"
+    
     private object Versions {
         const val junit4 = "4.12"
         const val testRunner = "1.1.0-alpha4"

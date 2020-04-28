@@ -7,12 +7,13 @@ plugins {
 android {
     compileSdkVersion(AndroidSdk.compile)
     defaultConfig {
-        applicationId = "info.sanaebadi.kotlindsl"
+        applicationId = Config.applicationId
         minSdkVersion(AndroidSdk.min)
         targetSdkVersion(AndroidSdk.target)
-        versionCode = 1
-        versionName = "1.0"
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        versionCode = Config.versionCode
+        versionName = Config.versionName
+
+        testInstrumentationRunner = TestLibraries.AndroidJunitRunner
     }
     buildTypes {
         getByName("release") {
